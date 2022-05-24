@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Zad2.dir/objects.a
-"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" cr CMakeFiles\Zad2.dir/objects.a @CMakeFiles\Zad2.dir\objects1.rsp
-"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Zad2.dir/objects.a -Wl,--no-whole-archive -o Zad2.exe -Wl,--out-implib,libZad2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Zad2.dir\linklibs.rsp

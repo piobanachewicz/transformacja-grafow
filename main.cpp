@@ -305,6 +305,7 @@ int main() {
         list = getGraph();
     } catch (const char* msg) {
         std::cout << msg << std::endl;
+        std::cin.ignore();
         return 0;
     }
 
@@ -322,13 +323,15 @@ int main() {
         if(isOneGraph(orglist)) std::cout<<"TAK"<<std::endl;
         else std::cout<<"NIE"<<std::endl;
 
-        std::cout<<"Graf po transformacji w graf oryginalny: "<<std::endl;
+        std::cout<<"\nGraf po transformacji w graf oryginalny: "<<std::endl;
         printList(orglist);
 
         listToFile(orglist);
+        std::cin.ignore();
         return 0;
     } else {
         std::cout<<"NIE"<<std::endl;
+        std::cin.ignore();
         return 0;
     }
 }
