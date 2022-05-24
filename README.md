@@ -7,6 +7,7 @@ Graf wejsciowy nalezy zapisac do pliku 'graf_wejsciowy.txt' w formacie listy nas
 2 -> 1 ;
 3 -> ;
 
+
 Wynik programu to informacja o tym, czy dany graf jest sprzezony (oraz jego przeksztalcenie w przypadku pozytywnej odpowiedzi) oraz informacja czy dany graf jest liniowy. 
 Graf przeksztalcony zapisywany jest w pliku 'graf_wyjsciowy.txt'.
 
