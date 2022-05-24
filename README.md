@@ -2,10 +2,10 @@ Program przeksztalcajacy graf sprzezony w jego oryginalna wersje. Wiecej o probl
 
 Graf wejsciowy nalezy zapisac do pliku 'graf_wejsciowy.txt' w formacie listy nastepnikow, gdzie pierwsza liczba to wierzolek, a po znaku '->' nalezy zapisac nastepniki tego wierzcholka. Kazda linia powinna konczyc sie srednikiem. Numerowac wierzcholki nalezy od 0. Przykladowy zapis:
 
-0 -> 1 2 ;
-1-> 3 ;
-2 -> 1 ;
-3 -> ;
+0 -> 1 2 ;  
+1-> 3 ;  
+2 -> 1 ;  
+3 -> ;  
 
 
 Wynik programu to informacja o tym, czy dany graf jest sprzezony (oraz jego przeksztalcenie w przypadku pozytywnej odpowiedzi) oraz informacja czy dany graf jest liniowy. 
